@@ -47,7 +47,7 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
            if (new Rectangle(ballPosX,ballPosY,20,20).intersects(new Rectangle(playerX,655,130,12))){
                // Bounce on Paddle Moment
                ballYdir = -ballYdir -2;
-               playerX = playerX +5;
+               playerX = playerX +10;
 
            }
 
